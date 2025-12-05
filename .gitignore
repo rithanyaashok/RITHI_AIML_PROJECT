@@ -1,0 +1,54 @@
+# ============================================
+# IGNORE ALL DATA FOLDERS (never push datasets)
+# ============================================
+
+data/
+raw/
+processed/
+outputs/
+interim/
+
+# Keep folder structure (optional)
+!data/.gitkeep
+!raw/.gitkeep
+!processed/.gitkeep
+!outputs/.gitkeep
+!interim/.gitkeep
+
+# ============================================
+# PYTHON + NOTEBOOK JUNK
+# ============================================
+
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.DS_Store
+
+# VS Code settings (optional)
+.vscode/
+
+# Anaconda / environment folders
+anaconda_projects/
+env/
+venv/
+conda_envs/
+
+# ============================================
+# LARGE / MODEL FILES
+# ============================================
+
+*.model
+*.bin
+*.pt
+*.pkl
+*.h5
+*.joblib
+
+# ============================================
+# LOGS / TEMP FILES
+# ============================================
+
+*.log
+*.tmp
+*.swp
